@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Flower with Bootstrap4</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a class="navbar-brand mr-5" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav menu-items">
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="#">Kateqoriyalar</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="#">Kateqoriya & Məhsullar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Əlaqə</a>
+                    </li>
+                </ul>
+                <ul class="ml-auto navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fa fa-cart-plus" href="#"> Sebetim</a>
+                        <a class="nav-link fa fa-user" href="#"> Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Category Section -->
+<section class="category mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <img src="assets/img/category-img.jpeg" class="img-fluid rounded" />
+            </div>
+            <div class="col-sm-5">
+                <h2>BUCKET LOVE 100<br>pink rose</h2>
+                <p>Paketimiz icində 100 ədəd <br> qızıl gül vardır. Çatdırılma pulsuz.</p>
+                <div class="row ">
+                    <div class="col-sm-4">
+                        <h5>Kateqoriya</h5>
+                        <button type="button" class="btn btn-light">Pink Rose</button>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <h5>Stok</h5>
+                        <button type="button" class="btn btn-light">Var</button>
+
+                    </div>
+                    <div class="col-sm-4">
+
+                        <h5>Satıldı</h5>
+                        <button type="button" class="btn btn-light">25 eded</button>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-2">
+                        <h5>Ədəd</h5>
+                    </div>
+                    <div class="col-sm-4 counter">
+                        <div class="in-dec">
+                            <button class="btn btn-dec">-</button>
+                            <span class="counter-number">0</span>
+                            <button class="btn btn-inc">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="category">
+                                    <h5>Ünvan</h5>
+                                </label>
+                                <select class="form-control" id="category" name="ctgry">
+                                    <option value="unvan1">Ünvanı daxil edin</option>
+                                    <option value="unvan1">Unvan1</option>
+                                    <option value="unvan2">Unvan2</option>
+                                    <option value="unvan3">Unvar3</option>
+                                    <option value="unvan4">Unvan4</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <h5>Elə indi sifariş edin</h5>
+                    <div class="row text-center">
+
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-danger">2250 &#8916;</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-warning text-white"> <i class="fa fa-cart-plus"> </i>
+                                Əlavə edin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Products Sections -->
+<section id="products">
+    <div class="container">
+        <h2>Oxşar Güllər</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="mycarousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+                        <li data-slide-to="1" data-target="#mycarousel"></li>
+                        <li data-slide-to="2" data-target="#mycarousel"></li>
+                        <li data-slide-to="3" data-target="#mycarousel"></li>
+                    </ol>
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose1.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose2.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose3.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose4.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose1.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose2.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose3.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose4.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose1.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose2.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose3.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose4.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose1.jpg" class="img-fluid rounded">
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose2.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose3.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-4">
+                                    <div class="card-img">
+                                        <img src="assets/img/rose4.jpg" class="img-fluid rounded">
+
+                                        <a href="#">
+                                            <span class="img-text">
+                                                <h4>BUCKET LOVE 100</h4>
+                                                <p>Paketimizin içində 100 ədəd qızıl<br> gül vardır.Çatdırılma
+                                                    pulsuzdur.</p>
+                                                <div class="hr"></div>
+                                            </span>
+                                        </a>
+                                        <div class="btn">
+                                            <span class="pr-4">2250 &#8916;</span>
+                                            <i class="fa fa-cart-plus pl-4"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-cols">
+                <div class="colm-md-4">
+                    <h4 class="mb-3">Filiallarımız</h4>
+                    <p>Wax Flower</p>
+                    <p>Wagif Prospekti 105 C</p>
+                </div>
+                <div class="colm-md-4">
+                    <h4 class="mb-3">Əlaqə</h4>
+                    <p>+994(12)4414004</p>
+                    <p>+994(12)4414004</p>
+                </div>
+                <div class="colm-md-4">
+                    <h4 class="mb-3">Bizi izləyin</h4>
+                    <p><i class="fa fa-instagram"></i> waxflowersbaku</p>
+                    <p><i class="fa fa-facebook"></i> waxflowersbaku</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cr">
+        <p>
+            Copyright ©
+            <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+            <script>document.write(new Date().getFullYear());</script> Deirvlon Technologies. All rights are reserved.
+            </script>
+        </p>
+    </div>
+</footer>
+
+<body>
+    <script src="assets/js//main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
